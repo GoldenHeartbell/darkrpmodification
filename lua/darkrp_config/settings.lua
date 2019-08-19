@@ -80,7 +80,7 @@ GM.Config.dropmoneyondeath              = false
 -- droppocketarrest - Enable/disable whether people drop the stuff in their pockets when they get arrested.
 GM.Config.droppocketarrest              = false
 -- droppocketdeath - Enable/disable whether people drop the stuff in their pockets when they die.
-GM.Config.droppocketdeath               = true
+GM.Config.droppocketdeath               = false
 -- dropweapondeath - Enable/disable whether people drop their current weapon when they die.
 GM.Config.dropweapondeath               = false
 -- Whether players can drop the weapons they spawn with.
@@ -311,11 +311,11 @@ GM.Config.moneyModel = "models/props/cs_assault/money.mdl"
 GM.Config.lockdownsound = "npc/overwatch/cityvoice/f_confirmcivilstatus_1_spkr.wav"
 
 -- The skin DarkRP uses. Set to "default" to use the GMod default derma theme.
-GM.Config.DarkRPSkin = "DarkRP"
+GM.Config.DarkRPSkin = "StarwarsRP"
 GM.Config.currency = "$"
 GM.Config.chatCommandPrefix = "/"
 GM.Config.F1MenuHelpPage = "https://wiki.darkrp.com/index.php/Main_Page"
-GM.Config.F1MenuHelpPageTitle = "DarkRP Wiki"
+GM.Config.F1MenuHelpPageTitle = "StarwarsRP Wiki"
 
 -- Put Steam ID's and ranks in this list, and the players will have that rank when they join.
 GM.Config.DefaultPlayerGroups = {
@@ -418,7 +418,7 @@ GM.Config.DefaultLaws = {
 GM.Config.PocketBlacklist = {
     ["fadmin_jail"] = true,
     ["meteor"] = true,
-    ["door"] = true,
+    ["door"] = false,
     ["func_"] = true,
     ["player"] = true,
     ["beam"] = true,
